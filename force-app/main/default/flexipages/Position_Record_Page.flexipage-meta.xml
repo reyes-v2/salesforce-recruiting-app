@@ -115,6 +115,12 @@
                 <identifier>RecordDays_Open__cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.Hiring_Manager__c</fieldItem>
+                <identifier>RecordHiring_Manager__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-7eae56a5-0725-47f4-bb4a-62147f8a648f</name>
         <type>Facet</type>
     </flexiPageRegions>
