@@ -105,6 +105,16 @@
                 <identifier>RecordTravel_Required_cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Days_Open__c</fieldItem>
+                <identifier>RecordDays_Open__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-7eae56a5-0725-47f4-bb4a-62147f8a648f</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -117,6 +127,16 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.OwnerId</fieldItem>
                 <identifier>RecordOwnerIdField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.iconimage__c</fieldItem>
+                <identifier>Recordiconimage__cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
