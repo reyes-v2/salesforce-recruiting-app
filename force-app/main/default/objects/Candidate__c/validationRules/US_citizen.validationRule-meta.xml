@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>US_citizen</fullName>
+    <active>true</active>
+    <description>If is us citizen then visa required is unchecked and viceversa</description>
+    <errorConditionFormula>OR(
+
+ Are_you_a_US_Citizen__c &amp;&amp;  Do_you_need_visa__c,
+ NOT(Are_you_a_US_Citizen__c) &amp;&amp;  NOT(Do_you_need_visa__c) 
+
+)</errorConditionFormula>
+    <errorMessage>Visa required only if candidate is not a US citizen</errorMessage>
+</ValidationRule>

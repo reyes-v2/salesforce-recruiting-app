@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iconimage__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( TEXT( Status__c ),
+ &apos;New Position&apos;,IMAGE(&quot;/resource/check&quot;,&quot;Green&quot;,28,24),
+&apos;Closed - Not Approved&apos;,IMAGE(&quot;/resource/redcircle&quot;,&quot;Red&quot;,28,24),
+&apos;Closed - Canceled&apos;,IMAGE(&quot;/resource/redcircle&quot;,&quot;Red&quot;,28,24),
+&apos;Closed - Filled&apos;,IMAGE(&quot;/resource/redcircle&quot;,&quot;Red&quot;,28,24)
+
+,&apos;No Image Available&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>iconimage</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
