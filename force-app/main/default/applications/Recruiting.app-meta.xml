@@ -14,10 +14,12 @@
     <label>Recruiting</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
-    <tabs>standard-report</tabs>
-    <tabs>standard-Dashboard</tabs>
     <tabs>Position__c</tabs>
     <tabs>Candidate__c</tabs>
+    <tabs>Job_Application__c</tabs>
+    <tabs>Employment_Website__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Recruiting_UtilityBar</utilityBar>
 </CustomApplication>
